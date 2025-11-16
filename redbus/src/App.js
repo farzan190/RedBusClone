@@ -4,10 +4,13 @@ import bus3 from "./assets/bus3.png";
 import menu from "./assets/menu.png";
 import question from "./assets/question.png";
 import user from "./assets/user.png";
+import banner from "./assets/banner.png";
+import SearchBar from "./components/searchBar";
+
 
 
 function App() {
-  return <div classname="header" style=
+  return <div> <div classname="header" style=
   {{
     display:"flex",
     justifyContent:"space-between",
@@ -83,7 +86,16 @@ function App() {
 
 
 
-  </div>
+  </div >
+     <div>
+    <img src={banner} style={{display:"flex",width:"100%",height:"100%",animation: "bottomUp 2s ease-out" }}/>
+     </div>
+<SearchBar/>
+</div>
+
+
+
+
 }
 
 export default App;
