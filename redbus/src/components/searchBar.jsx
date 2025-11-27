@@ -7,9 +7,7 @@ import search from "../assets/search.png";
 const SearchBar=()=>{
 
 
-     const handleChange=()=>{
-        return <div>hell</div>
-     }
+     
 
     return <div style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column",gap:"20px",}}>
      
@@ -49,6 +47,7 @@ const SearchBar=()=>{
  </div>
 
     </div>
+    
      <button classname="searchBuses" style={{display:"flex",justifyContent:"center",alignItems:"center",gap:"5px",fontSize:"15px",color:"white",fontWeight:"600",backgroundColor:"#d63941",border:"none",borderRadius:"30px",padding:"14px",width:"20%",height:"5%",marginTop:"-44px"}}>
       <img src={search} style={{width:"20px",height:"20px", }}/>  
      <div> Search buses</div>     

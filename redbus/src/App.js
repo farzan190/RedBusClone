@@ -6,17 +6,23 @@ import question from "./assets/question.png";
 import user from "./assets/user.png";
 import banner from "./assets/banner.png";
 import SearchBar from "./components/searchBar";
+import BannerTwo from "./components/banner";
+import Gap from "./components/gap";
+import Bannerthree from  "./components/bannerthree";
+
 
 
 
 function App() {
-  return <div> <div classname="header" style=
+  return <div> 
+    <div classname="header" style=
   {{
     display:"flex",
     justifyContent:"space-between",
     alignItems:"center",
     padding:"10px 130px" , 
-    boxShadow: "0 4px 6px rgba(0,0,0,0.2)"
+    boxShadow: "0 4px 6px rgba(0,0,0,0.2)",
+    
 }}>
 
   <div classname="header-left" style={{
@@ -82,15 +88,14 @@ function App() {
 </div>
 
   </div>
-
-
-
-
   </div >
-     <div>
-    <img src={banner} style={{display:"flex",width:"100%",height:"100%",animation: "bottomUp 2s ease-out" }}/>
+     <div style={{position:""}}>
+    <img src={banner} style={{display:"flex",width:"100%",height:"100%",position:"",}}/>
      </div>
 <SearchBar/>
+<Gap/>
+<BannerTwo/>
+<Bannerthree/>
 </div>
 
 
