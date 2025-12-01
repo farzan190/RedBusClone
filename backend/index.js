@@ -1,11 +1,13 @@
 const {ticket,getTicket,findRoute}=require("./controllers/ticket");
 
 const express=require("express");
+const cors = require("cors");
 const mongoose = require("mongoose");
 const app=express();
 const port=8000;
 
 app.use(express.json());
+app.use(cors());
 app.use("/createTicket",ticket);
 app.use("/getTicket",getTicket);
 app.use("/findRoute",findRoute);
