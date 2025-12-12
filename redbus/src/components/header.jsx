@@ -13,7 +13,7 @@ return   <div classname="header" style= {{
     alignItems:"center",
     padding:"10px 130px" , 
     boxShadow: "0 4px 6px rgba(0,0,0,0.2)",
-    
+    width:"82.5%",
 }}>
 
   <div classname="header-left" style={{

@@ -17,10 +17,10 @@ const Ticket=()=>{
   
 
 
-return  <div style={{ fontFamily: "Inter, sans-serif",margin:"200px",padding:"10px" }}>
+return  <div style={{ fontFamily: "Inter, sans-serif",margin:"",padding:"10px",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column",gap:"20px" }}>
 { 
   ticketData.map((item)=>{
-  return <div style={{borderRadius:"20px",padding:"20px",margin:"20px",boxShadow: "0 4px 10px rgba(0,0,0,0.3)"}}>
+  return <div style={{borderRadius:"20px",padding:"20px",margin:"",boxShadow: "0 4px 10px rgba(0,0,0,0.3)", width:"100%"}}>
  
  <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
  
