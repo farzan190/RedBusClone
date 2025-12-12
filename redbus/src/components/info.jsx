@@ -6,6 +6,7 @@ import electricLogo from "../assets/electric.png";
 import liveTrackLogo from "../assets/liveTracking.png";
 import Reschedulable from "../assets/Reschedulable.png";
 import PickNdrop from "./pickNdrop";
+import Rating from "./ratingNReview";
 
 
 
@@ -102,6 +103,8 @@ Change Travel Date is available only till <br/>services are available for future
 
 
 <PickNdrop board={boarding}/>
+<Rating/>
+
 
   </div>
 }
