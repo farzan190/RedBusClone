@@ -7,7 +7,9 @@ import liveTrackLogo from "../assets/liveTracking.png";
 import Reschedulable from "../assets/Reschedulable.png";
 import PickNdrop from "./pickNdrop";
 import Rating from "./ratingNReview";
-
+import Cancellation from "./cancellation";
+import DateChangePolicy from "./dateChangePolicy";
+import Policies  from "./policies";
 
 
 
@@ -104,8 +106,9 @@ Change Travel Date is available only till <br/>services are available for future
 
 <PickNdrop board={boarding}/>
 <Rating/>
-
-
+<Cancellation/>
+<DateChangePolicy/>
+<Policies/>
   </div>
 }
 export default Info;
